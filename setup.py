@@ -14,7 +14,7 @@ else:
         long_description = f.read()
 
 setup(name='logregnumpy',
-      version='0.1.0',
+      version='0.1.1',
       description='Logistic Regression Classifier',
       long_description=long_description,
       packages=['logregnumpy'],

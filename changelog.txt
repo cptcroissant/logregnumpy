@@ -1,3 +1,10 @@
+Version 0.1.1 
+-------------
+
+requirements added
+readme updated
+
+
 Version 0.1.0 
 -------------
 
