@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: logregnumpy
-Version: 0.1.1
+Version: 0.1.2
 Summary: Logistic Regression Classifier
 Home-page: UNKNOWN
 Author-email: kir.klyukvin@gmail.com
@@ -16,14 +16,14 @@ Description: # logregnumpy
             
         Parameters
         ----------
-        lr : float, default=1e-3
-             Learning rate (size) for each step of an gradient descent.
+        **lr : float, default=1e-3**  
+        Learning rate (size) for each step of an gradient descent.
                 
-        l2_reg : float, default=0.2
-             Degree of L2 penalty.
+        **l2_reg : float, default=0.2**     
+        Degree of L2 penalty.
                 
-        epochs : int, default=100
-             Number of gradient descent iterations.
+        **epochs : int, default=100**   
+        Number of gradient descent iterations.
             
         Examples
         --------
@@ -47,25 +47,29 @@ Description: # logregnumpy
         Methods
         -------
         
-        fit(X, y, verbose=False, plot=False)	
-        	Fit the model according to the given training data. May return a loss value graph. 
+        **fit(X, y, verbose=False, plot=False)**  
+        Fit the model according to the given training data. May return a loss value graph. 
         
         Parameters
         
-        X : array-like of shape (n_samples, n_features) 
-            Training vector, where n_samples is the number of samples and  
-            n_features is the number of features.  
-        y : array-like of shape (n_samples,)  
-            Target vector relative to X.  
-        verbose : bool, default=False  
-            If true, returns array with loss values on each iteration.  
-        plot : bool, default=False  
-            If true, returns a loss value graph.          
+        *X : array-like of shape (n_samples, n_features)*  
+        Training vector, where n_samples is the number of samples and  
+        n_features is the number of features.  
         
-        predict(X)  			
-        	Predict class labels for samples in X.  
-        predict_proba(X)			
-        	Probability estimates.  
+        *y : array-like of shape (n_samples,)*   
+        Target vector relative to X.  
+        
+        *verbose : bool, default=False*    
+        If true, returns array with loss values on each iteration.  
+        
+        *plot : bool, default=False*  
+        If true, returns a loss value graph.          
+        
+        **predict(X)**  
+        Predict class labels for samples in X.
+          
+        **predict_proba(X)**  
+        Probability estimates.  
         
         
         Notes
