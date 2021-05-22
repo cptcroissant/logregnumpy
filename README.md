@@ -9,14 +9,14 @@ Works with binary and multiclass targets.
     
 Parameters
 ----------
-lr : float, default=1e-3
-     Learning rate (size) for each step of an gradient descent.
+**lr : float, default=1e-3**
+Learning rate (size) for each step of an gradient descent.
         
-l2_reg : float, default=0.2
-     Degree of L2 penalty.
+**l2_reg : float, default=0.2**     
+Degree of L2 penalty.
         
-epochs : int, default=100
-     Number of gradient descent iterations.
+**epochs : int, default=100**   
+Number of gradient descent iterations.
     
 Examples
 --------
@@ -40,25 +40,29 @@ array([[9.69584306e-01, 3.04018742e-02, 1.38198704e-05],
 Methods
 -------
 
-fit(X, y, verbose=False, plot=False)	
-	Fit the model according to the given training data. May return a loss value graph. 
+**fit(X, y, verbose=False, plot=False)**  	
+Fit the model according to the given training data. May return a loss value graph. 
 
 Parameters
 
-X : array-like of shape (n_samples, n_features) 
-    Training vector, where n_samples is the number of samples and  
-    n_features is the number of features.  
-y : array-like of shape (n_samples,)  
-    Target vector relative to X.  
-verbose : bool, default=False  
-    If true, returns array with loss values on each iteration.  
-plot : bool, default=False  
-    If true, returns a loss value graph.          
+*X : array-like of shape (n_samples, n_features)*  
+Training vector, where n_samples is the number of samples and  
+n_features is the number of features.  
 
-predict(X)  			
-	Predict class labels for samples in X.  
-predict_proba(X)			
-	Probability estimates.  
+*y : array-like of shape (n_samples,)*   
+Target vector relative to X.  
+
+*verbose : bool, default=False*    
+If true, returns array with loss values on each iteration.  
+
+*plot : bool, default=False* 
+If true, returns a loss value graph.          
+
+**predict(X)**  			
+Predict class labels for samples in X.
+  
+**predict_proba(X)**			
+Probability estimates.  
 
 
 Notes
