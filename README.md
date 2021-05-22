@@ -40,7 +40,7 @@ array([[9.69584306e-01, 3.04018742e-02, 1.38198704e-05],
 Methods
 -------
 
-**fit(X, y, verbose=False, plot=False)**  	
+**fit(X, y, verbose=False, plot=False)**  
 Fit the model according to the given training data. May return a loss value graph. 
 
 Parameters
