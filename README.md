@@ -9,7 +9,7 @@ Works with binary and multiclass targets.
     
 Parameters
 ----------
-**lr : float, default=1e-3**
+**lr : float, default=1e-3**  
 Learning rate (size) for each step of an gradient descent.
         
 **l2_reg : float, default=0.2**     
@@ -55,13 +55,13 @@ Target vector relative to X.
 *verbose : bool, default=False*    
 If true, returns array with loss values on each iteration.  
 
-*plot : bool, default=False* 
+*plot : bool, default=False*  
 If true, returns a loss value graph.          
 
-**predict(X)**  			
+**predict(X)**  
 Predict class labels for samples in X.
   
-**predict_proba(X)**			
+**predict_proba(X)**  
 Probability estimates.  
 
 
